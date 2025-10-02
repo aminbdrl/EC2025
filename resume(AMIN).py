@@ -11,21 +11,15 @@ with col1:
 
 with col2:
     st.markdown(
-        """
-        - MUHAMMMAD AMINUDDEEN BIN BADROL HISHAM
-        - 📍 Location: No.3,Lorong Azzaharah 10/4b, 
-        42300, Bandar Puncak Alam, Kuala Selangor, Selangor
-        - 📧 Email: maminuddeenh@gmail.com | 📞**Phone:** +60 105-341-583
-        - 🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/)
-        """
-    )
+        
 st.header("👤 Personal Information")
-st.subheader("Your Full Name")
+st.subheader("MUHAMMMAD AMINUDDEEN BIN BADROL HISHAM")
 st.write("""
-- 📧 Email: your.email@example.com  
-- 📞 Phone: +60 123-456-789  
-- 🔗 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-- 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
+- 📍 Location: No.3,Lorong Azzaharah 10/4b, 42300, Bandar Puncak Alam, Kuala Selangor, Selangor
+- 📧 Email: maminuddeenh@gmail.com
+- 📞 Phone: +60 105-341-583  
+- 🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/)  
+
 """)
 
 st.write("---")
