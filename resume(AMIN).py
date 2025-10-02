@@ -10,7 +10,7 @@ with col1:
     st.image("gambar amin.png", width=180)  
 
 with col2:
-    st.markdown(
+
         
 st.header("👤 Personal Information")
 st.subheader("MUHAMMMAD AMINUDDEEN BIN BADROL HISHAM")
@@ -19,7 +19,7 @@ st.write("""
 - 📧 Email: maminuddeenh@gmail.com
 - 📞 Phone: +60 105-341-583  
 - 🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/)  
-"""))
+""")
 
 st.write("---")
 
