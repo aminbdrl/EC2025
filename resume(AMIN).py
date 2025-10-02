@@ -12,7 +12,7 @@ with col2:
     st.markdown(
         """
         # **MUHAMMAD AMINUDDEEN BIN BADROL HISHAM**
-        #### Aspiring Data Scientist | Artificial Intelligence 
+        #### Data Scientist | Artificial Intelligence 
         📍 No.3, Lorong Azzaharah 10/4b, 42300, Bandar Puncak Alam, Selangor  
         📧 **Email:** [maminuddeenh@gmail.com](mailto:maminuddeenh@gmail.com)  
         📞 **Phone:** +60 105-341-583  
