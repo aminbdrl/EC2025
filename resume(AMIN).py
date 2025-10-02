@@ -7,13 +7,13 @@ st.set_page_config(page_title="My Resume", page_icon="📄", layout="wide")
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image("gambar amin.png", width=180)  
+    st.image("gambar amin.png", width=100)  
 
 with col2:
     st.markdown(
         """
         - MUHAMMMAD AMINUDDEEN BIN BADROL HISHAM
-        - 📍 Location: No.3,Lorong Azzaharah 10/4b,42300,Bandar Puncak Alam,Kuala Selangor,Selangor**
+        - 📍 Location: No.3,Lorong Azzaharah 10/4b,42300,Bandar Puncak Alam,Kuala Selangor,Selangor
         - 📧 Email: maminuddeenh@gmail.com | 📞**Phone:** +60 105-341-583
         - 🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/)
         """
@@ -75,7 +75,7 @@ st.markdown(
     - Build Automated Feeding & Growth Tracking System for Poultry
     - Method (IOT, AI)
  
-    🏆 *LionLair 1st Runner Up – Hotlink International Techno Connect 2025 *
+    🏆 LionLair 1st Runner Up – Hotlink International Techno Connect 2025 
     """
 )
 
