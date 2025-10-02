@@ -19,8 +19,7 @@ st.write("""
 - 📧 Email: maminuddeenh@gmail.com
 - 📞 Phone: +60 105-341-583  
 - 🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/)  
-
-""")
+"""))
 
 st.write("---")
 
