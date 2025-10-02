@@ -19,6 +19,14 @@ with col2:
         - 🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/)
         """
     )
+st.header("👤 Personal Information")
+st.subheader("Your Full Name")
+st.write("""
+- 📧 Email: your.email@example.com  
+- 📞 Phone: +60 123-456-789  
+- 🔗 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+- 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
+""")
 
 st.write("---")
 
