@@ -12,10 +12,10 @@ with col1:
 with col2:
     st.markdown(
         """
-        MUHAMMMAD AMINUDDEEN BIN BADROL HISHAM
-        📍 Location: No.3,Lorong Azzaharah 10/4b,42300,Bandar Puncak Alam,Kuala Selangor,Selangor
-        📧 Email: maminuddeenh@gmail.com | 📞 Phone: +60 105-341-583  
-        🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/) 
+        **MUHAMMMAD AMINUDDEEN BIN BADROL HISHAM**
+       **📍 Location: No.3,Lorong Azzaharah 10/4b,42300,Bandar Puncak Alam,Kuala Selangor,Selangor**
+        **📧 Email: maminuddeenh@gmail.com | 📞 Phone: +60 105-341-583**
+        **🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/)**
         """
     )
 
@@ -57,7 +57,7 @@ with col1:
 with col2:
     st.markdown("- Data Visualization\n- Excel")
 with col3:
-    st.markdown("- Web Development (HTML, CSS, JS)\n- Streamlit\n- Cloud Platforms (Notepad++)")
+    st.markdown("- Web Development (HTML, CSS, JS)\n- Cloud Platforms (Notepad++)")
 
 # --- PROJECTS ---
 st.markdown("## 🚀 Projects & Achievements")
