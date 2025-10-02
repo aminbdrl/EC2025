@@ -7,15 +7,15 @@ st.set_page_config(page_title="My Resume", page_icon="📄", layout="wide")
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image("amin.jpeg", width=180)  
+    st.image("gambar amin.png", width=180)  
 
 with col2:
     st.markdown(
         """
-        # Your Full Name
-        #### 📍 Location: Kuala Lumpur, Malaysia  
-        📧 **Email:** your.email@example.com | 📞 **Phone:** +60 123-456-789  
-        🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | 🌐 [Portfolio](https://yourwebsite.com)
+        MUHAMMMAD AMINUDDEEN BIN BADROL HISHAM
+        📍 Location: No.3,Lorong Azzaharah 10/4b,42300,Bandar Puncak Alam,Kuala Selangor,Selangor
+        📧 Email: maminuddeenh@gmail.com | 📞 Phone: +60 105-341-583  
+        🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/) 
         """
     )
 
@@ -25,10 +25,10 @@ st.write("---")
 st.markdown("## 🎓 Education")
 st.markdown(
     """
-    **Bachelor of Science in Computer Science**  
-    University Name | *2018 - 2022*  
-    - Relevant Coursework: Machine Learning, Data Science, Software Engineering  
-    - GPA: **3.8 / 4.0**
+    **Bachelor of Information Technology with Honours**  
+     | *2023 - 2026*  
+    - Relevant Coursework: Machine Learning, Artificial Intelligence, Computer Evoluation  
+    - GPA: **3.4 / 4.0**
     """
 )
 
@@ -37,29 +37,16 @@ st.markdown("## 💼 Work Experience")
 
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.markdown("**Jan 2023 – Present**")
+    st.markdown("**May 2022 – Dec 2022**")
 with col2:
     st.markdown(
         """
-        **Software Engineer | Company Name**  
-        - Developed and maintained web applications using Python and React.  
-        - Collaborated with cross-functional teams to improve workflows.  
-        - Automated deployment pipelines, reducing release time by 30%.
+        **Sub Admin | BroAutoPaintGarage**  
+        - Developed and maintained web applications using HTML and CSS.  
         """
     )
 
-col1, col2 = st.columns([1, 3])
-with col1:
-    st.markdown("**Jun 2022 – Dec 2022**")
-with col2:
-    st.markdown(
-        """
-        **Data Analyst Intern | Company Name**  
-        - Analyzed customer data to provide actionable insights.  
-        - Built dashboards with Tableau and Power BI.  
-        - Improved reporting efficiency by 25%.
-        """
-    )
+
 
 # --- SKILLS ---
 st.markdown("## 🛠️ Skills")
@@ -68,9 +55,9 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown("- Python\n- SQL\n- Machine Learning")
 with col2:
-    st.markdown("- Data Visualization\n- Excel / Power BI\n- Git & GitHub")
+    st.markdown("- Data Visualization\n- Excel")
 with col3:
-    st.markdown("- Web Development (HTML, CSS, JS)\n- Streamlit\n- Cloud Platforms (AWS/GCP)")
+    st.markdown("- Web Development (HTML, CSS, JS)\n- Streamlit\n- Cloud Platforms (Notepad++)")
 
 # --- PROJECTS ---
 st.markdown("## 🚀 Projects & Achievements")
@@ -78,18 +65,21 @@ st.markdown(
     """
     **Crypto Price Prediction Model**  
     - Built regression models (Linear Regression, Decision Tree) to predict crypto prices.  
-    - Achieved R² score of **0.87**.  
+    - Achieved MSE score of **0.93**.  
 
-    **Portfolio Website**  
-    - Created a personal website using React & Tailwind.  
-    - Showcased resume, projects, and blog posts.  
+    **Flood Risk Prediction Model**  
+    - Built regression models (Linear Regression) to predict flood in Kelantan.  
+    - Used MSE,MAE and RMSE score.
 
-    🏆 *Dean’s List for 4 consecutive semesters*  
-    🏆 *Hackathon Winner – Smart City Challenge 2021*
+    **Nestworks**
+    - Build Automated Feeding & Growth Tracking System for Poultry
+    - Method (IOT, AI)
+ 
+    🏆 *LionLair 1st Runner Up – Hotlink International Techno Connect 2025 *
     """
 )
 
 # --- FOOTER ---
 st.write("---")
-st.caption("© 2025 Your Name | Built with Streamlit")
+st.caption("© 2025 Aminuddeen | Built with Streamlit")
 
