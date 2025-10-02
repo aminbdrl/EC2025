@@ -9,17 +9,17 @@ col1, col2 = st.columns([1, 3])
 with col1:
     st.image("gambar amin.png", width=180)  
 
-with col2:
 
         
-st.header("👤 Personal Information")
-st.subheader("MUHAMMMAD AMINUDDEEN BIN BADROL HISHAM")
-st.write("""
-- 📍 Location: No.3,Lorong Azzaharah 10/4b, 42300, Bandar Puncak Alam, Kuala Selangor, Selangor
-- 📧 Email: maminuddeenh@gmail.com
-- 📞 Phone: +60 105-341-583  
-- 🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/)  
-""")
+with col2:
+    st.markdown(
+        """
+        # MUHAMMMAD AMINUDDEEN BIN BADROL HISHAM
+        #### 📍 Location: Location: No.3,Lorong Azzaharah 10/4b, 42300, Bandar Puncak Alam, Kuala Selangor, Selangor  
+        📧 Email: maminuddeenh@gmail.com | 📞 Phone: +60 105-341-583   
+        🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-aminuddeen-820a9a189/
+        """
+    )
 
 st.write("---")
 
